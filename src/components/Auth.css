@@ -1,0 +1,60 @@
+.auth-form {
+    font-family:'Roboto',sans-serif;
+    width: 25rem;
+    max-width: 80%;
+    margin: 5rem auto;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    border-radius:0.15em;
+
+}
+
+.form-control label,
+.form-control input {
+    margin-left: 1rem;
+    font-family:'Roboto',sans-serif;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius:0.15em;
+}
+
+.form-control label {
+    margin-bottom: 0.5rem;
+    font-family:'Roboto',sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    
+    border-radius:0.15em;
+    
+}
+
+
+.form-control {
+    margin-bottom: 1rem;
+    background-color: #fffbfb;
+    font-family:'Roboto',sans-serif;
+    box-sizing: border-box;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    border-radius:0.15em;
+}
+
+.form-actions button {
+    display:inline-block;
+padding:0.7em 1.4em;
+margin:0 0.3em 0.3em 0;
+border-radius:0.15em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+text-transform:uppercase;
+font-weight:400;
+color:#FFFFFF;
+background-color:#3369ff;
+box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+text-align:center;
+position:relative;
+}
+
+.form-actions button:hover {
+    color:#000000;
+    top:0.1em;
+}
